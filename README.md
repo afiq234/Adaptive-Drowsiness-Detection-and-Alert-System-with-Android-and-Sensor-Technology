@@ -51,15 +51,25 @@ The system combines:
 ```
 
 ## ⚙️ Requirements
-💻 Software
-Flutter SDK (3.x)
 
-Python 3.8+
+### 💻 Software
+- Flutter SDK (3.x)
+- Python 3.8+
+- Firebase CLI
+- Google Cloud Account (with Firebase enabled)
+- Arduino IDE or PlatformIO for ESP32
 
-Firebase CLI
+### ☁️ Required Google Cloud Services
+To fully enable cloud functionality, you must configure and connect:
+- **Firebase Authentication** – for managing users
+- **Firebase Firestore** – to store classified states and logs
+- **Firebase Realtime Database** *(optional)* – for real-time sensor sync
+- **Firebase Storage** *(optional)* – to store model or captured image data
+- **Firebase Cloud Messaging** *(optional)* – to send alerts/notifications
 
-Arduino IDE or PlatformIO for ESP32
+> ⚠️ Be sure to download and place your `google-services.json` inside `android/app/`
 
+### 📦 Python Libraries
 ```bash
 pip install numpy pandas tensorflow matplotlib
 ```
