@@ -1,0 +1,12 @@
+train: D:\CodingStorage\flutter\yolodetection\lib\Drowiness-1\train\images
+val: D:\CodingStorage\flutter\yolodetection\lib\Drowiness-1\valid\images
+
+nc: 2
+names: ['awake', 'drowsy']
+
+roboflow:
+  workspace: achraf-7guqg
+  project: drowiness-dw7gi
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/achraf-7guqg/drowiness-dw7gi/dataset/1

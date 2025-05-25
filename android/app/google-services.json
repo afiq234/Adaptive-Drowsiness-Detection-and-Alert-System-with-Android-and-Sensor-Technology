@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "935812111525",
+    "firebase_url": "https://fyp2facedetection-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fyp2facedetection",
+    "storage_bucket": "fyp2facedetection.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935812111525:android:08c93c89805a4cfbd4814c",
+        "android_client_info": {
+          "package_name": "com.example.yolodetection"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-19Zg-rz2ep-UbYpXWKjTe2CpkDTZEUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
