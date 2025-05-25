@@ -16,14 +16,14 @@ The system combines:
 - Firebase cloud services
 - LSTM model for heart rate classification
 - Sensor-based data collection via ESP32
-- Real-time WebSocket + MQTT integration
+- Real-time WebSocket
 
 ---
 
 ## 🧠 Features
 
 - 🔄 Real-time heart rate data from ESP32
-- 📡 Live communication using WebSocket/MQTT
+- 📡 Live communication using WebSocket
 - 📊 LSTM-based heart rate classification
 - 👁️‍🗨️ Facial landmark/motion-based drowsiness cues
 - 🔔 In-app and audible alerts
